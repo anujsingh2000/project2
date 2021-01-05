@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+;}
+
+html ,body{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#background{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+#left{
+    width: 10%;
+    height: 100%;
+    padding: 20px 30px;
+    background-color: #fafafa;
+}
+
+#left h3{
+    font-size: 35px;
+    letter-spacing: -5px;
+    font-weight: 900;
+    margin-bottom: 75px;
+}
+
+#left a{
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+
+#center{
+    position: relative;
+    width: 35%;
+    height: 100%;
+    background-image: url("daa.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#right{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    padding: 24px;
+    background-color: #fff
+}
+
+#right #nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#right #nav i{
+    margin-left: 18px;
+    color: rgb(168, 168, 168);
+}
+
+#centerright{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0px 75px;
+    transform: translate(-50% , -50%);
+   /* background-color: #f3f3f3;*/
+}
+#line1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line1 .line{
+    width: 65px;
+    height: 2.23px;
+    background-color: #474040;
+}
+
+#line1 h1{
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Raleway";
+    font-weight: 600;
+}
+#centerright>h1{
+    font-size: 100px;
+    font-weight: 750;
+    margin-top: -18px;
+    margin-bottom: -5px;
+    
+}
+
+#centerright>p{
+    font-size: 14px;
+}
+
+#inputdiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+
+    
+}
+
+#inputdiv input{
+    width: 80%;
+    height: 50px;
+    border: 2px solid #dadada;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 12px 20px;
+    padding-left: 45px;
+    outline: none;
+    box-shadow: 0px 10px 35px rgba(248, 178, 178, 0.6);
+}
+
+#inputdiv input::placeholder{
+    color: #cecccc;
+}
+
+
+#inputdiv button{
+    width: 20%;
+    height: 50px;
+    font-weight: 700;
+    color: white;
+     border: none;
+     border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(238, 195, 185);
+    box-shadow: 0px 10px 35px rgba(248, 178, 178, 0.6);
+}
+
+#inputdiv i{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(0 , -50%);
+    color: #cecccc;
+}
+
+#feature{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+   /* background-color: rgb(80, 76, 76);*/
+    margin-top: 100px;
+}
+#feature{
+    font-size: 14px;
+}
+
+#feature #imgft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url("ja.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 6px;
+}
+
+#feature #imgft i{
+    position: absolute;
+    font-size: 35px;
+     opacity: .55;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#feature p{
+text-align: left;
+width: 40%;
+font-size: 12px;
+line-height: 18px;
+opacity: .5;
+font-weight: 700;
+
+}
+#sidepart{
+    position: absolute;
+    right: 60px;
+    top: 51%;
+    transform-origin: 100% 0;
+    transform: rotate(-90deg);
+}
+
+#sidepart a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    opacity: .4;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+#down{
+    position: absolute;
+    bottom: 4%;
+    right: 2.5%;
+    opacity: .4;
+    font-size: 40px;
+}
